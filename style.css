@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.all
+{
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    height: 100%;
+}
+#teltopo
+{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 4vh;
+    display: block;
+}
+.number
+{
+    position: absolute;
+    left: 60%;
+    top: 0.8vh;
+    display: inline-block;
+    width: 20%;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: lighter;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#numberdec
+{
+    text-decoration: none;
+    color: white;
+}
+#numberdec:hover
+{
+    text-decoration: underline white;
+}
+.cabecalho
+{
+    background-color: rgba(0,0,0,0.75);
+}
+.menulista
+{
+    height: 10em;
+    position: relative;
+    bottom: 2vh;
+}
+.menu
+{
+    height: 7.4vh;
+    vertical-align: middle;
+    position: relative;
+}
+.seletores
+{
+    display: inline;
+    direction: ltr;
+    position: absolute;
+    left: 50%;
+    width: 40%;
+    top: 65%;
+}
+.opmenu
+{
+    display: inline-block;
+    margin-left: 3%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+}
+.opmenu:hover
+{
+    color: rgb(62, 180, 58);
+    transition: 0.2s linear;
+}
+.logomenu
+{
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
+.logocotemig
+{
+    display: inline-block;
+    width: 25vh;
+}
+.logo
+{
+    height: 45px;
+    position: relative;
+    left: 400px;
+}
+.banner
+{
+    background-image: url(Assets/desktopimagefull-1665146930522.png);
+    height: 60vh;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.bannertext
+{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 21%;
+    top: 24vh;
+    text-align: center;
+}
+.texttitulo
+{
+    margin-bottom: 1em;
+    color: white;
+    font-weight: 800;
+    font-size: larger;
+}
+.text
+{
+    margin-bottom: 2em;
+    color: white;
+    font-weight: 400;
+}
+#buttonsaibamais
+{
+    background-color: #45b80b;
+    border: 15px solid  #45b80b;
+    border-radius: 10px ;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-left: 8rem;
+    padding-right: 8rem;
+    font-weight: 400;
+    font-size: medium;
+}
+#buttonsaibamais:hover
+{
+    background-color: #3ea30c;
+    border: 15px solid  #3ea30c;
+    transition: 0.5s;
+}
+.border
+{
+    height: 2vh;
+    margin-left: 1.2em;
+    border-left: 1px dashed rgba(255,255,255,.2);
+    padding-left: 10px;
+}
+.changeworld
+{
+    font-size: 2.5rem;
+    padding-top: 10px;
+    font-weight: 900;
+    text-align: center;
+    color: #111;
+}
+.texto
+{
+    color: rgb(65, 65, 65);
+    text-align: center;
+    margin: 10px;
+    font-size: 1.1rem;
+}
+.textoescolha
+{
+    padding-top: 2vh;
+    padding-bottom:3vh ;
+}
+.card1
+{
+    position: relative;
+    display: inline-block;
+    top: 0vh;
+    left: 33%;
+    padding: 0.5%;
+}
+.card2
+{
+    position: relative;
+    display: inline-block;
+    top: 1.65vh;
+    left: 33%;
+    padding: 0.5%;
+}
+.cardimg
+{
+    height: 15vh;
+    border-radius: 15px 15px 0px 0px;
+}
+.button
+{
+    display: block;
+}
+.imgcard
+{
+    background-image: url(Assets/desktopimage-1680708863890.jpg);
+    height: 100vh;
+    width: 100%;
+}
